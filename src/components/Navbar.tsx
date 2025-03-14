@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ session }) => {
       <div className="container flex h-14 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <Heart className="h-5 w-5 text-date-primary" />
-          <span className="font-semibold">DateInvite</span>
+          <span className="font-semibold">HamroMaya</span>
         </Link>
         
         <div className="flex items-center gap-4">
