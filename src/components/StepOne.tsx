@@ -22,7 +22,7 @@ const StepOne: React.FC<StepOneProps> = ({
   const handleYes = () => {
     setResponse("yes");
     setIsTransitioning(true);
-    setTimeout(onYes, 5000);
+    setTimeout(onYes, 3000);
   };
 
   const handleNo = () => {
